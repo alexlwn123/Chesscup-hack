@@ -1,5 +1,5 @@
 # Chesscup-hack
-Scrape puzzle answers from browser state.
+Scrape puzzle answers from browser state. Solver bot using browser automation via Selenium.
 
 Currently hold the All-Time #1 position in all modes: 3-minute, 5-minute, and survival mode
 
