@@ -9,6 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "http-server": "^14.1.1"
+    "dotenv": "^16.0.3",
+    "http-server": "^14.1.1",
+    "selenium-side-runner": "^4.0.0-alpha.37",
+    "selenium-webdriver": "^4.8.0"
+  },
+  "devDependencies": {
+    "chromedriver": "^109.0.0"
   }
 }

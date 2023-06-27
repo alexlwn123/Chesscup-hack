@@ -1,7 +1,9 @@
 # Chesscup-hack
-Scrape puzzle answers from browser state. Solver bot using browser automation via Selenium.
+Demolishes my favorite chess site for puzzles: [https://chesscup.org](https://chesscup.org)
 
-Currently hold the All-Time #1 position in all modes: 3-minute, 5-minute, and survival mode
+Scrapes puzzle answers from browser state. Solver bot uses browser automation via Selenium.
+
+Currently holds the All-Time #1 position in all modes: 3-minute, 5-minute, and survival mode.
 
 <img width="1520" alt="image" src="https://user-images.githubusercontent.com/43247027/215305524-294ec7fe-f450-4841-ad72-53ce156b9445.png">
 
