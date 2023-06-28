@@ -5,6 +5,8 @@ Scrapes puzzle answers from browser state. Solver bot uses browser automation vi
 
 Currently holds the All-Time #1 position in all modes: 3-minute, 5-minute, and survival mode.
 
+Tweet: https://twitter.com/_AlexLewin/status/1673532600143560705
+
 <img width="1520" alt="image" src="https://user-images.githubusercontent.com/43247027/215305524-294ec7fe-f450-4841-ad72-53ce156b9445.png">
 
 <img width="1468" alt="image" src="https://user-images.githubusercontent.com/43247027/215305511-7c58f261-0b5e-41b9-a776-c9b6d38920b4.png">
