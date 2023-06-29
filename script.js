@@ -57,7 +57,7 @@ let makeMove = async (move, driver) => {
   let endPiece;
   for (const x of squares) {
     const sq = await x.getAttribute("cgKey");
-    if (sq === end) {
+    if (sq === end.substring(0, 2)) {
       endPiece = x;
       break;
     }
@@ -71,6 +71,19 @@ let makeMove = async (move, driver) => {
     // .pause(300)
     .perform();
 
+  if (end.length === 3) {
+    const promotionMap = {
+      'q': 1,
+      'r': 2,
+      'n': 3,
+      'b': 4
+    }
+    await driver
+      .findElement(
+        webdriver.By.xpath(`//*[@id="promote-to"]/li[${promotionMap[end[2]]}]`)
+      )
+      .click();
+  }
   console.log("clicked 2:", end);
 };
 let solvePuzzle = async (moves, driver) => {
