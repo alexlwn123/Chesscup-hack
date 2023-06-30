@@ -2,7 +2,12 @@ var webdriver = require("selenium-webdriver");
 var chrome = require("selenium-webdriver/chrome");
 require("dotenv").config();
 
-var binaryPath = "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser";
+if (!process.env.CHROME_BINARY_PATH || !process.env.USERNAME || !process.env.PASSWORD || !process.env.MODE) {
+  console.error("Please set the following environment variables: CHROME_BINARY_PATH, USERNAME, PASSWORD, MODE");
+  console.error("See sample.env for an example.");
+  process.exit(1);
+}
+var binaryPath = process.env.CHROME_BINARY_PATH
 
 let setup = () => {
   cheaty = function () {
